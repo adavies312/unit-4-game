@@ -1,0 +1,28 @@
+body {
+    font-family: 'Gamja Flower', cursive;
+
+}
+
+.jumbotron {
+    background: #ffffff!important;
+    text-align:center;
+    font-size: 64px;
+
+}
+
+h1 {
+    font-size:48px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+    text-align:center;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+}
