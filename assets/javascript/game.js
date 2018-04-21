@@ -11,7 +11,7 @@ $("#wins").html(wins);
 $("#losses").html(losses);
 
 //random number
-var randomNum = 18 + Math.floor(Math.random() * 120);
+var randomNum = 18 + Math.floor(Math.random() * 102);
 console.log(randomNum);
 $("#randomNumber").html(randomNum);
 
@@ -27,7 +27,7 @@ var blueCrystal = 1 + Math.floor(Math.random() * 12);
 var reset = function() {
     score = 0;
     //reset random number
-    randomNum = 18 + Math.floor(Math.random() * 120);
+    randomNum = 18 + Math.floor(Math.random() * 102);
     console.log(randomNum);
     //reset crystal values
     purpleCrystal = 1 + Math.floor(Math.random() * 12);
