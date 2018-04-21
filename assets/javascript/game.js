@@ -31,7 +31,7 @@ var reset = function() {
     console.log(randomNum);
     //reset crystal values
     blueCrystal = 1 + Math.floor(Math.random() * 12);
-    pinkCrystal = 1 + Math.floor(Math.random() * 12);
+    redCrystal = 1 + Math.floor(Math.random() * 12);
     greenCrystal = 1 + Math.floor(Math.random() * 12);
     purpleCrystal = 1 + Math.floor(Math.random() * 12);
     $("#randomNumber").html(randomNum);
