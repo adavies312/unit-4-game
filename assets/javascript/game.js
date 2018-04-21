@@ -1,3 +1,4 @@
+$(document).ready(function () {
 //variables
 score = 0;
 wins = 0;
@@ -39,8 +40,7 @@ var results = function () {
         wins++;
         $("#wins").html(wins);
         reset ();
-    }
-    else if (score > randomNum){
+    } else if (score > randomNum) {
         losses++;
         $("#losses").html(losses);
         reset ();
@@ -49,30 +49,31 @@ var results = function () {
 //clicking on crystals adds to score
 //each click runs results function to determine if won or lost
 
-$("purple").on("click", function () {
+$("#purple").on("click", function () {
     score = score + purpleCrystal;
     console.log(score);
     $("#totalScore").html(score);
     results ();
-})
+});
 
 $("#red").on("click", function() {
     score = score + redCrystal;
     console.log(score);
     $("#totalScore").html(score);
     results();
-})
+});
 
 $("#green").on("click", function() {
     score = score + greenCrystal;
     console.log(score);
     $("#totalScore").html(score);
     results();
-})
+});
 
 $("#blue").on("click", function() {
     score = score + blueCrystal;
     console.log(score);
     $("#totalScore").html(score);
     results();
-})
+});
+});
