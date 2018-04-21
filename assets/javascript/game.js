@@ -30,10 +30,10 @@ var reset = function() {
     randomNum = 18 + Math.floor(Math.random() * 120);
     console.log(randomNum);
     //reset crystal values
-    blueCrystal = 1 + Math.floor(Math.random() * 12);
+    purpleCrystal = 1 + Math.floor(Math.random() * 12);
     redCrystal = 1 + Math.floor(Math.random() * 12);
     greenCrystal = 1 + Math.floor(Math.random() * 12);
-    purpleCrystal = 1 + Math.floor(Math.random() * 12);
+    blueCrystal = 1 + Math.floor(Math.random() * 12);
     $("#randomNumber").html(randomNum);
     $("#totalScore").html(score);
     $("#wins").html(wins);
@@ -64,7 +64,7 @@ $("#purple").on("click", function() {
 })
 
 $("#red").on("click", function() {
-    score = score + pinkCrystal;
+    score = score + redCrystal;
     console.log(score);
     $("#totalScore").html(score);
     results();
