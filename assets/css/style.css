@@ -1,11 +1,12 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-
+    background-image: url("../images/crystals.jpg")
 }
 
 .jumbotron {
     background: #ffffff!important;
     text-align:center;
     font-size: 64px;
+    opacity: .67;
 
 }
