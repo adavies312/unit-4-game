@@ -21,8 +21,8 @@ $(document).ready(function () {
     var greenCrystal = 1 + Math.floor(Math.random() * 12);
     var blueCrystal = 1 + Math.floor(Math.random() * 12);
 
-    // create a reset function
-    var reset = function () {
+    // create a restart function
+    var restart = function () {
         score = 0;
         //assign new random number
         randomNum = 18 + Math.floor(Math.random() * 102);
@@ -43,12 +43,12 @@ $(document).ready(function () {
         if (score == randomNum) {
             wins++;
             $("#wins").html(wins);
-            reset();
+            restart();
 
         } else if (score > randomNum) {
             losses++;
             $("#losses").html(losses);
-            reset();
+            restart();
         }
     };
 
