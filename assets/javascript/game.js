@@ -11,16 +11,16 @@ $(document).ready(function () {
     $("#losses").html(losses);
 
     // pick a random number
-    var randomNum = 18 + Math.floor(Math.random() * 102);
+    var randomNum = Math.floor(Math.random() * 102) + 18;
     console.log(randomNum);
     // update the DOM
     $("#randomNumber").html(randomNum);
 
     // assign random numbers to each crystal
-    var purpleCrystal = 1 + Math.floor(Math.random() * 12);
-    var redCrystal = 1 + Math.floor(Math.random() * 12);
-    var greenCrystal = 1 + Math.floor(Math.random() * 12);
-    var blueCrystal = 1 + Math.floor(Math.random() * 12);
+    var purpleCrystal = Math.floor(Math.random() * 12) + 1;
+    var redCrystal = Math.floor(Math.random() * 12) + 1;
+    var greenCrystal = Math.floor(Math.random() * 12) + 1;
+    var blueCrystal = Math.floor(Math.random() * 12) + 1;
 
     // click the crystal to add to score
     // check conditions to see if user won each click 
