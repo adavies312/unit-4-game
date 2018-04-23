@@ -1,14 +1,14 @@
 $(document).ready(function () {
 
     // initialize variables
-    var score = 0;
     var wins = 0;
     var losses = 0;
+    var score = 0;
 
     // update the dom
-    $("#totalScore").html(score);
     $("#wins").html(wins);
     $("#losses").html(losses);
+    $("#totalScore").html(score);
 
     // pick a random number
     //math.floor(math.random() * (max - min + 1)) + min
