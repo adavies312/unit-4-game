@@ -11,7 +11,8 @@ $(document).ready(function () {
     $("#losses").html(losses);
 
     // pick a random number
-    var randomNum = Math.floor(Math.random() * 102) + 18;
+    //math.floor(math.random() * (max - min + 1)) + min
+    var randomNum = Math.floor(Math.random() * 102) + 19;
     console.log(randomNum);
     // update the DOM
     $("#randomNumber").html(randomNum);
@@ -83,13 +84,13 @@ $(document).ready(function () {
     var reset = function () {
         score = 0;
         //assign new random number
-        randomNum = 18 + Math.floor(Math.random() * 102);
+        randomNum = Math.floor(Math.random() * 102) + 19;
         console.log(randomNum);
         //assign new crystal values
-        purpleCrystal = 1 + Math.floor(Math.random() * 12);
-        redCrystal = 1 + Math.floor(Math.random() * 12);
-        greenCrystal = 1 + Math.floor(Math.random() * 12);
-        blueCrystal = 1 + Math.floor(Math.random() * 12);
+        purpleCrystal = Math.floor(Math.random() * 12) + 1;
+        redCrystal = Math.floor(Math.random() * 12) + 1;
+        greenCrystal = Math.floor(Math.random() * 12) + 1;
+        blueCrystal = Math.floor(Math.random() * 12) + 1;
         $("#randomNumber").html(randomNum);
         $("#totalScore").html(score);
         $("#wins").html(wins);
