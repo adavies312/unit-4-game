@@ -1,14 +1,8 @@
-# unit-4-game
+# Crystal Collectors Game
 
-### Option One: CrystalsCollector Game (Recommended)
+1. The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters. 
 
-![Crystal Collector](Images/1-CrystalCollector.jpg)
-
-1. [Watch the demo](homework_demos/crystalsCollector_demo.mp4).
-
-2. The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters. 
-
-3. Here's how the app works:
+2. Here's how the app works:
 
    * There will be four crystals displayed as buttons on the page.
 
@@ -29,8 +23,14 @@
 
    * The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
 
-##### Option 1 Game design notes
-
+3. Game Design Notes
 * The random number shown at the start of the game should be between 19 - 120.
 
 * Each crystal should have a random hidden value between 1 - 12.
+
+## Built With
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* jQuery
