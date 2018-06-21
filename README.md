@@ -28,6 +28,9 @@
 
 * Each crystal should have a random hidden value between 1 - 12.
 
+![Crystals](/assets/images/crystal-collector.png)
+
+
 ## Built With
 * HTML
 * CSS
